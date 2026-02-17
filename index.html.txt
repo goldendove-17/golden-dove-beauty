@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Golden Dove Beauty Bor – PMU, korekcije i saline removal. Zakazivanje termina preko online forme." />
+  <title>Golden Dove Beauty | PMU & Removal | Bor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Golden Dove Beauty">
+        <img class="brand__img" src="logo.png" alt="Golden Dove Beauty logo" />
+        <span class="brand__name">Golden Dove Beauty</span>
+      </a>
+
+      <nav class="nav" aria-label="Glavna navigacija">
+        <a class="nav__link" href="#services">Usluge</a>
+        <a class="nav__link" href="#booking">Zakaži termin</a>
+        <a class="nav__link" href="#about">O nama</a>
+        <a class="nav__link" href="#contact">Kontakt</a>
+        <a class="nav__link" href="#location">Lokacija</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HOME / HERO -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__logoWrap">
+          <img class="hero__logo" src="logo.png" alt="Golden Dove Beauty Logo" />
+        </div>
+
+        <div class="hero__text">
+          <h1 class="hero__title">PMU • Korekcije • Saline Removal</h1>
+          <p class="hero__subtitle">
+            Zakazivanje je organizovano preko online forme, uz obaveznu fotografiju (bez filtera),
+            kako bismo potvrdili najbolji plan tretmana i tačan termin.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="#booking">ZAKAŽI TERMIN</a>
+            <a class="btn btn--outline" href="#services">POGLEDAJ USLUGE</a>
+          </div>
+
+          <p class="note">
+            Napomena: Popunjavanje forme je <span class="gold">zahtev</span> za termin. Termin se potvrđuje porukom nakon konsultacije.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- USLUGE -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section__title">Usluge</h2>
+        <p class="section__lead">
+          Lista usluga je bez cena. Svaki tretman se planira individualno, u skladu sa kožom, starim radom i željenim rezultatom.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3 class="card__title">Powder Brows</h3>
+            <p class="card__text">
+              Mekano senčenje sa kontrolisanim prelazima. Cilj je prirodan izgled i stabilan ton, uz pažljivo mapiranje i postepeno nanošenje pigmenta.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Nano Brows</h3>
+            <p class="card__text">
+              Precizniji efekat dlačica za klijentkinje koje žele suptilniji rezultat. Izbor tehnike zavisi od tipa kože i postojanja starog rada.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">PMU usne / BB Lips</h3>
+            <p class="card__text">
+              Ujednačavanje tona i blaga definicija usana. Pre zakazivanja proveravaju se kontraindikacije i istorija herpesa, kako bi tretman bio bezbedan.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Saline Removal</h3>
+            <p class="card__text">
+              Posvetljivanje ili uklanjanje neželjenog pigmenta. Najčešće se radi kod pigmenta van oblika, neželjenog tona ili pripreme za korekciju.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Korekcije starog PMU rada</h3>
+            <p class="card__text">
+              Korekcija oblika, neutralizacija sivih/plavih tonova i planiranje novih obrva/usana. Procena zavisi od dubine, starosti pigmenta i stanja kože.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Konsultacije</h3>
+            <p class="card__text">
+              Najbolji izbor kada postoji stari rad ili nejasna očekivanja. Nakon fotografije i kratkih informacija dobijate realan plan i preporuku.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZAKAZI TERMIN -->
+    <section id="booking" class="section section--soft">
+      <div class="container">
+        <h2 class="section__title">Zakaži termin</h2>
+        <p class="section__lead">
+          Prvo izaberite jednu opciju. Oba dugmeta otvaraju Google Form gde popunjavate potrebne informacije i dokumenta.
+        </p>
+
+        <div class="bookingButtons">
+          <a id="btnConsult" class="btn btn--gold btn--wide" href="#" target="_blank" rel="noopener">ZAKAŽI KONSULTACIJE</a>
+          <a id="btnTreatment" class="btn btn--outline btn--wide" href="#" target="_blank" rel="noopener">ZAKAŽI TRETMAN</a>
+        </div>
+
+        <div class="miniBox">
+          <h3 class="miniBox__title">Dokumenta (opciono za pregled)</h3>
+          <p class="miniBox__text">
+            Ako želiš da klijenti mogu unapred da pročitaju pravila i saglasnosti, stavi linkove ovde (PDF). Za hosting online,
+            ove PDF fajlove treba da uploaduješ na isti hosting (ili u Google Drive kao javne linkove).
+          </p>
+
+          <div class="docLinks">
+            <a class="link" href="PRAVILNIK_ZA_KLIJENTE.pdf" target="_blank" rel="noopener">Pravilnik za klijente (PDF)</a>
+            <a class="link" href="KRATKI_UPITNIK_PRE_ZAKAZIVANJA.pdf" target="_blank" rel="noopener">Kratki upitnik pre zakazivanja (PDF)</a>
+            <a class="link" href="IZJAVA_SAGLASNOST.pdf" target="_blank" rel="noopener">Izjava i saglasnost (PDF)</a>
+          </div>
+
+          <p class="note">
+            (Ovo su placeholder nazivi fajlova. Možeš ih preimenovati kako želiš, samo uskladi linkove.)
+          </p>
+        </div>
+
+        <div class="miniBox">
+          <h3 class="miniBox__title">Google kalendar (link)</h3>
+          <p class="miniBox__text">
+            Ako želiš, možeš ovde dodati link ka Google kalendaru (npr. za pregled dostupnih dana). Sam termin se i dalje potvrđuje nakon forme.
+          </p>
+          <a id="calendarLink" class="link" href="#" target="_blank" rel="noopener">Otvori Google kalendar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- O NAMA -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">O nama</h2>
+        <div class="noteBox">
+          <p class="noteBox__text">
+            NOTE: Dodaj tekst kasnije (biografija, iskustvo, pristup radu, higijena i standardi, šta vas izdvaja).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="contact" class="section section--soft">
+      <div class="container">
+        <h2 class="section__title">Kontakt</h2>
+        <p class="section__lead">Klikom možete odmah poslati mejl ili pozvati. Brojeve i mejl ubaciš kasnije u podešavanjima.</p>
+
+        <div class="contactGrid">
+          <div class="contactCard">
+            <h3 class="card__title">Email</h3>
+            <p class="card__text">Klikni da pošalješ poruku.</p>
+            <a id="emailLink" class="btn btn--gold" href="#">POŠALJI EMAIL</a>
+          </div>
+
+          <div class="contactCard">
+            <h3 class="card__title">Telefon</h3>
+            <p class="card__text">Klikni da pozoveš.</p>
+            <a id="phoneLink" class="btn btn--outline" href="#">POZOVI</a>
+            <p class="note">Broj ćeš dodati kasnije.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOKACIJA -->
+    <section id="location" class="section">
+      <div class="container">
+        <h2 class="section__title">Lokacija</h2>
+        <p class="section__lead">
+          Ovde ubacuješ svoju Google mapu. Mapa je aktivna (zoom in/out). Link ispod vodi direktno na Google Maps.
+        </p>
+
+        <div class="mapWrap">
+          <iframe
+            id="mapFrame"
+            title="Google mapa - Golden Dove Beauty"
+            src=""
+            width="100%"
+            height="420"
+            style="border:0;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="center">
+          <a id="mapLink" class="btn btn--outline" href="#" target="_blank" rel="noopener">OTVORI U GOOGLE MAPS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Golden Dove Beauty.</p>
+        <p class="footer__small">Crna pozadina • Zlatni akcenti • Sadržaj belim slovima.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
