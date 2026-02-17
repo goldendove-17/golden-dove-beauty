@@ -56,30 +56,36 @@ a{
 
 .header__inner{
   display:flex;
-  justify-content:space-between;
   align-items:center;
+  justify-content:space-between;
+  gap:12px;
   padding:14px 0;
+  flex-wrap:wrap;
 }
 
 .brand{
   display:flex;
   align-items:center;
   gap:12px;
+  flex:1 1 260px;                 /* ✅ brend dobija prostor */
+  min-width:220px;
 }
 
 .brand__img{
   height:38px;
   width:auto;
+  display:block;
+  flex:0 0 auto;
 }
 
 .brand__name{
-  font-weight:900;
-  letter-spacing:.5px;
+  line-height:1.1;
+  word-break:break-word;
   background: linear-gradient(
       180deg,
       #fff2c2 0%,
-      var(--gold-light) 40%,
-      var(--gold-dark) 70%,
+      var(--gold-light) 70%,
+      var(--gold-dark) 40%,
       #fff2c2 100%
   );
   -webkit-background-clip:text;
@@ -89,12 +95,16 @@ a{
 
 .nav{
   display:flex;
-  gap:16px;
+  gap:10px;
+  flex:1 1 360px;                 /* ✅ meni se lepo rasporedi */
+  justify-content:flex-end;
+  flex-wrap:wrap;                 /* ✅ linkovi prelaze u novi red */
 }
 
 .nav__link{
   color:var(--muted);
   font-size:14px;
+  white-space:nowrap;             /* ✅ da se link ne lomi u dve linije */
   padding:8px 12px;
   border-radius:999px;
   transition:.3s;
@@ -108,14 +118,16 @@ a{
 /* ================= HERO ================= */
 
 .hero{
-  padding:70px 0 50px;
+  padding:90px 0 50px;            /* ✅ više prostora gore */
   text-align:center;
   border-bottom:1px solid var(--line);
 }
 
 .hero__logo{
   width:min(520px, 90%);
-  margin-bottom:25px;
+  height:auto;
+  display:block;
+  margin:0 auto 22px;
 }
 
 .hero__title{
@@ -303,3 +315,4 @@ a{
     display:none;
   }
 }
+
